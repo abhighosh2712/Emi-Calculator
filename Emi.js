@@ -1,10 +1,7 @@
-var name=prompt("Please enter your name:");
-var salary = prompt("Please enter your salary:");
-var creditCardBill = prompt("Please enter your credit card bill amount:");
-var HomeLoanEMI = prompt("Please enter your home loan EMI amount:");
-var MutulaFundSavings = prompt("Please enter your mutual fund savings amount:");
-var carLoanEMI = prompt("Please enter your car loan EMI amount:");
-var totalExpenses = Number(creditCardBill) + Number(HomeLoanEMI) + Number(carLoanEMI);
-var totalSavings = Number(salary) - totalExpenses;
-console.log("Hello " + name + ", your total savings after expenses is: " + totalSavings);
-
+// enter your pcm marks for the 3 subjects 
+// if your pcm marks is greter then 95 %you will be getting Computer science branch
+// if your pcm marks is greter then 90 %you will be getting Electronics branch
+// if your pcm marks is greter then 85 %you will be getting Mechanical branch
+// if your pcm marks is greter then 80 %you will be getting Civil branch
+// if your pcm marks is less then 80 % you will be getting no branch
+// if your mark between 80 to 85 you will be getting Civil branch
