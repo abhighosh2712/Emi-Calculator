@@ -1,10 +1,53 @@
-const fruits=['mango','banana','apple','orange']
-// push method is used to add the element at the end of the array
-fruits.push("sweet lime")
-console.log("fruits",fruits)
-fruits.unshift("grapes")
-console.log("fruits",fruits)
-fruits.shift()
-console.log("fruits",fruits)
-fruits.pop()  
-console.log("pop",fruits)
+// Product List Array
+const productList = [
+  {
+    id: 1,
+    name: "Laptop",
+    price: 50000,
+    category: "Electronics"
+  },
+  {
+    id: 2,
+    name: "Mobile Phone",
+    price: 25000,
+    category: "Electronics"
+  },
+  {
+    id: 3,
+    name: "Headphones",
+    price: 3000,
+    category: "Accessories"
+  },
+  {
+    id: 4,
+    name: "USB Cable",
+    price: 500,
+    category: "Accessories"
+  },
+  {
+    id: 5,
+    name: "Monitor",
+    price: 15000,
+    category: "Electronics"
+  },
+  {
+    id: 6,
+    name: "Keyboard",
+    price: 5000,
+    category: "Peripherals"
+  },
+  {
+    id: 7,
+    name: "Mouse",
+    price: 1500,
+    category: "Peripherals"
+  },
+  {
+    id: 8,
+    name: "Webcam",
+    price: 4000,
+    category: "Accessories"
+  }
+];
+
+console.log(productList);
