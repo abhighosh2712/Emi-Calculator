@@ -1,14 +1,17 @@
+// Pizza Ready Callback Example
 
+function orderPizza(size, toppings, callback) {
+  console.log(`Pizza ordered: ${size} with ${toppings.join(', ')}`);
+  
+  // Simulate pizza preparation time
+  setTimeout(() => {
+    
+  }, 3000);
+}
 
-// piza order with callback function
-function orderPizza(pizzaName, callback){
-  console.log("order received for",pizzaName)
-  callback()
+function pizzaReadyCallback(size, magarita) {
+conso.log(`Pizza is ready`);
 }
-function pizzaReady(){
-  console.log("pizza is ready")
-  setTimeout(()=>{
-    console.log("pizza is delivered")
-  },5000)
-}
-orderPizza("margherita",pizzaReady)
+
+// Usage
+orderPizza('large', ['pepperoni', 'cheese', 'mushrooms'], pizzaReadyCallback);
