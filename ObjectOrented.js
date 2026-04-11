@@ -10,9 +10,18 @@ constructor(_name, _age, _grade) {
   console.log("Grade:", this.grade);
 }
 
+    getDetails() {
+      return this.name + " is " + this.age + " years old and has grade " + this.grade;
+    }
+    setName(newName) {
+      this.name = newName;
+    }
+    getName() {
+      return this.name;
+    }
 
 }
-
-
 let s1=new Student('Abhi', 20, 'A');
-let s2=new Student('Ravi', 40, 'B');
+s1.setName('Ramesh');
+var name=s1.getName();
+console.log("Name:", name);
